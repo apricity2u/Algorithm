@@ -1,10 +1,10 @@
 # [level 1] 신고 결과 받기 - 92334 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/92334?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/92334) 
 
 ### 성능 요약
 
-메모리: 46.4 MB, 시간: 2073.67 ms
+메모리: 39.3 MB, 시간: 2806.93 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 10일 03:36:09
+2025년 02월 04일 21:47:24
 
 ### 문제 설명
 
