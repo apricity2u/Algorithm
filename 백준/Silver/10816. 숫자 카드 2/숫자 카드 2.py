@@ -1,28 +1,23 @@
 import sys
 input = sys.stdin.readline
 
+from collections import Counter
+
 N = int(input())
 num_cards = list(map(int, input().split()))
+
+card_counter = Counter(num_cards)
 
 M = int(input())
 nums = list(map(int, input().split()))
 
-answer = {}
-
-for num in num_cards:
-    
-    if num in answer:
-        answer[num] += 1
-    else:
-        answer[num] = 1
-
-answer2 = []
+answer = []
 
 for num in nums:
+    
+    if num in card_counter:
+        answer.append(card_counter[num])
+    else:
+        answer.append(0)
 
-    if num in answer:
-        answer2.append(answer[num])
-    else: 
-        answer2.append(0)
-
-print(*answer2)
+print(*answer)
